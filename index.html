@@ -33,15 +33,18 @@
             <div id="lives-box">Lives: <span id="lives">❤️❤️❤️</span></div>
         </div>
         <canvas id="gameCanvas" width="900" height="550"></canvas>
-        <button id="pause-btn" class="small-btn">Pause</button>
     </div>
 
-    <!-- 4. GAME OVER / SCOREBOARD SCREEN -->
+    <!-- 4. GAME OVER & SCOREBOARD SCREEN -->
     <div id="gameover-screen" class="screen hidden">
         <h1 class="gameover-title">GAME OVER</h1>
         <div class="scoreboard-card">
             <h2>Final Score: <span id="final-score">0</span></h2>
             <p>Highest Level Reached: <span id="final-level">1</span></p>
+            <h3>🏆 High Scores</h3>
+            <ul id="high-score-list">
+                <li>No scores yet</li>
+            </ul>
         </div>
         <button id="restart-btn" class="arcade-btn">PLAY AGAIN</button>
         <button id="menu-back-btn" class="small-btn">Main Menu</button>
