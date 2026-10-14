@@ -8,7 +8,7 @@ pygame.init()
 pygame.mixer.init(frequency=22050, size=-16, channels=2)
 
 WIDTH, HEIGHT = 950, 650
-screen = pygame.display.set_mode((WIDTH, HEIGHT))
+screen = pygame.display.set_mode((800, 600), pygame.SCALED)
 pygame.display.set_caption("Fruit Ninja - Jazz Edition")
 clock = pygame.time.Clock()
 
